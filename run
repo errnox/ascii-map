@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ruby ascii_map.rb  | grep --color="always" "^\|x\|o" | less -RNi -JWFX;
